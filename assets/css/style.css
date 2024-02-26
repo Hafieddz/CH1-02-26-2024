@@ -1,0 +1,17 @@
+h1 {
+    font-size: calc(50% + 100px); 
+}
+
+@media (max-width : 800px) {
+    body {
+        background-color: yellow;
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) and (max-width : 800px) {
+    body {
+      background-color: aqua;
+      color: red;
+    }
+  }
