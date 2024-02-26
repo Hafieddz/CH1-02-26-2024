@@ -17,3 +17,31 @@
         color: red;
     } */
 }
+
+.left-section {
+    float: left;
+}
+
+.left-section img {
+    width: 300px;
+}
+
+.right-section {
+    float: right;
+}
+
+.right-section img {
+    width: 300px;
+}
+
+@media (max-width : 600px) {
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+
+    .right-section img {
+        object-fit: cover;
+    }
+}
