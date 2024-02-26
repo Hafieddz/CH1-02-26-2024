@@ -1,21 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@media (max-width : 800px) {
-    /* body {
-        background-color: yellow;
-        color: blue;
-    } */
-}
-
-@media (orientation: landscape) and (max-width : 800px) {
-    /* body {
-        background-color: aqua;
-        color: red;
-    } */
+body {
+    font-family: "Merriweather", serif;
 }
 
 .left-section {
@@ -44,4 +28,21 @@
     .right-section img {
         object-fit: cover;
     }
+}
+
+@media (max-width : 800px) {
+    /* body {
+        background-color: yellow;
+        color: blue;
+    } */
+    h1 {
+        font-weight: 300;
+    }
+}
+
+@media (orientation: landscape) and (max-width : 800px) {
+    /* body {
+        background-color: aqua;
+        color: red;
+    } */
 }
